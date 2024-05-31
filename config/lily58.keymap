@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <175>;
+    tapping-term-ms = <120>;
     hold-trigger-on-release;
     flavor = "tap-preferred";
 };
