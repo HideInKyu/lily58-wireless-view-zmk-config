@@ -9,7 +9,6 @@
 
 &mt {
     tapping-term-ms = <120>;
-    hold-trigger-on-release;
     flavor = "tap-preferred";
 };
 
