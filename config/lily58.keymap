@@ -65,11 +65,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3     &kp N4            &kp N5                               &kp N6     &kp N7     &kp N8     &kp N9   &kp N0    &kp GRAVE
-&kp TAB    &kp Q   &kp W   &kp F      &kp P             &kp G                                &kp J      &kp L      &kp U      &kp Y    &kp SEMI  &kp SQT
-&kp LGUI   &kp A   &kp R   &kp S      &kp T             &kp D                                &kp H      &kp N      &kp E      &kp I    &kp O     &kp APOS
-&kp LSHFT  &kp Z   &kp X   &kp C      &kp V             &kp B         &to 2        &to 1     &kp K      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                           &kp LCTRL  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp SPACE    &kp BSPC  &kp ENTER  &kp MINUS  &kp PLUS
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                            &kp N6  &kp N7     &kp N8     &kp N9   &kp N0    &kp GRAVE
+&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp G                             &kp J   &kp L      &kp U      &kp Y    &kp SEMI  &kp SQT
+&kp LGUI   &kp A   &kp R   &kp S     &kp T     &kp D                             &kp H   &kp N      &kp E      &kp I    &kp O     &kp APOS
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B      &to 2        &to 2     &kp K   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                           &kp LGUI  &kp LALT  &kp SPACE  &kp ENTER    &kp BSPC  &tog 1  &kp MINUS  &kp PLUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -80,7 +80,7 @@
 &kp ESC    &kp N1  &kp N2  &kp N3            &kp N4    &kp N5                           &kp N6     &kp N7    &kp N8        &kp N9     &kp N0  &kp MINUS
 &none      &none   &none   &none             &none     &none                            &none      &none     &kp UP_ARROW  &none      &none   &none
 &kp LGUI   &none   &cut    &copy             &paste    &none                            &none      &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none
-&kp LSHFT  &none   &none   &undo             &redo     &none     &to 0        &to 2     &none      &none     &none         &none      &none   &none
+&kp LSHFT  &none   &none   &undo             &redo     &none     &none        &none     &none      &none     &none         &none      &none   &none
                            &kp LEFT_CONTROL  &kp LGUI  &kp LALT  &kp SPACE    &kp BSPC  &kp ENTER  &none     &none
             >;
         };
@@ -90,7 +90,7 @@
 &kp F1     &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                            &kp F7           &kp F8  &kp F9   &kp F10  &kp F11    &kp F12
 &none      &none   &none   &none      &none     &none                             &kp KP_ASTERISK  &kp N7  &kp N8   &kp N9   &kp FSLH   &none
 &kp LGUI   &none   &cut    &copy      &paste    &none                             &kp PLUS         &kp N4  &kp N5   &kp N6   &kp MINUS  &none
-&kp LSHFT  &none   &none   &undo      &redo     &none     &to 1        &to 0      &none            &kp N1  &kp N2   &kp N3   &kp EQUAL  &none
+&kp LSHFT  &none   &none   &undo      &redo     &none     &to 0        &to 0      &none            &kp N1  &kp N2   &kp N3   &kp EQUAL  &none
                            &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE    &kp ENTER  &kp BACKSPACE    &kp N0  &kp DOT
             >;
         };
