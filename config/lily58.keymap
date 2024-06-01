@@ -83,11 +83,11 @@
 
             display-name = "Base";
             bindings = <
-&kp TILDE                &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                                                             &kp N6  &kp N7       &kp N8             &kp N9       &kp N0             &kp F12
+&kp GRAVE                &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                                                             &kp N6  &kp N7       &kp N8             &kp N9       &kp N0             &kp F12
 &kp TAB                  &kp Q        &mt LG(W) W  &mt LG(F) F  &mt LG(P) P  &kp G                                                              &kp J   &mt LG(L) L  &kp U              &mt LG(Y) Y  &mt LG(SEMI) SEMI  &kp BSLH
 &mt LEFT_COMMAND ESCAPE  &mt LG(A) A  &mt LG(R) R  &mt LG(S) S  &mt LG(T) T  &mt LG(D) D                                                        &kp H   &mt LG(N) N  &kp E              &kp I        &kp O              &mt DOUBLE_QUOTES APOSTROPHE
 &kp LSHFT                &mt LG(Z) Z  &mt LG(X) X  &mt RG(C) C  &mt LG(V) V  &kp B        &to 2                    &to 2                        &kp K   &kp M        &kp COMMA          &kp DOT      &kp FSLH           &kp LEFT_SHIFT
-                                                   &kp LGUI     &kp LALT     &kp SPACE    &mouseAkey MCLK SPACE    &mt LG(BACKSPACE) BACKSPACE  &mo 1   &kp MINUS    &mt CAPSLOCK PLUS
+                                                   &kp LGUI     &kp LALT     &kp SPACE    &mouseAkey MCLK ENTER    &mt LG(BACKSPACE) BACKSPACE  &mo 1   &kp MINUS    &mt CAPSLOCK PLUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -95,21 +95,21 @@
 
         layer_1 {
             bindings = <
-&kp ESC    &kp N1                                &kp N2  &kp N3    &kp N4    &kp N5                                               &kp N6  &kp N7    &kp N8        &kp N9     &kp N0  &kp MINUS
-&none      &none                                 &none   &none     &none     &none                                                &none   &none     &kp UP_ARROW  &none      &none   &none
-&kp LGUI   &none                                 &cut    &copy     &paste    &none                                                &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none
-&kp LSHFT  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &none   &undo     &redo     &none      &none        &none                        &none   &none     &none         &none      &none   &none
-                                                         &kp LGUI  &kp LALT  &kp SPACE  &kp ENTER    &mt LG(BACKSPACE) BACKSPACE  &to 0   &none     &none
+&kp GRAVE                &kp N1                                &kp N2  &kp N3    &kp N4    &kp N5                                                           &kp N6  &kp N7    &kp N8        &kp N9     &kp N0  &kp MINUS
+&none                    &none                                 &none   &none     &none     &none                                                            &none   &none     &kp UP_ARROW  &none      &none   &none
+&mt LEFT_COMMAND ESCAPE  &none                                 &none   &none     &none     &none                                                            &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none
+&kp LSHFT                &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &none   &none     &none     &none      &none                    &none                        &none   &none     &none         &none      &none   &none
+                                                                       &kp LGUI  &kp LALT  &kp SPACE  &mouseAkey MCLK ENTER    &mt LG(BACKSPACE) BACKSPACE  &to 0   &none     &none
             >;
         };
 
         layer_2 {
             bindings = <
-&kp F1     &kp F2  &kp F3  &kp F4    &kp F5    &kp F6                                               &kp F7           &kp F8  &kp F9   &kp F10  &kp F11    &kp F12
-&none      &none   &none   &none     &none     &none                                                &kp KP_ASTERISK  &kp N7  &kp N8   &kp N9   &kp FSLH   &none
-&kp LGUI   &none   &cut    &copy     &paste    &none                                                &kp PLUS         &kp N4  &kp N5   &kp N6   &kp MINUS  &none
-&kp LSHFT  &none   &none   &undo     &redo     &none      &to 0        &to 0                        &none            &kp N1  &kp N2   &kp N3   &kp EQUAL  &none
-                           &kp LGUI  &kp LALT  &kp SPACE  &kp ENTER    &mt LG(BACKSPACE) BACKSPACE  &mo 1            &kp N0  &kp DOT
+&kp F1                   &kp F2       &kp F3       &kp F4       &kp F5       &kp F6                                                             &kp F7           &kp F8  &kp F9   &kp F10  &kp F11    &kp F12
+&kp TAB                  &kp Q        &mt LG(W) W  &mt LG(F) F  &mt LG(P) P  &kp G                                                              &kp KP_ASTERISK  &kp N7  &kp N8   &kp N9   &kp FSLH   &none
+&mt LEFT_COMMAND ESCAPE  &mt LG(A) A  &mt LG(R) R  &mt LG(S) S  &mt LG(T) T  &mt LG(D) D                                                        &kp PLUS         &kp N4  &kp N5   &kp N6   &kp MINUS  &none
+&kp LSHFT                &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C  &mt LG(V) V  &kp B        &to 0                    &to 0                        &none            &kp N1  &kp N2   &kp N3   &kp EQUAL  &none
+                                                   &kp LGUI     &kp LALT     &kp SPACE    &mouseAkey MCLK ENTER    &mt LG(BACKSPACE) BACKSPACE  &mo 1            &kp N0  &kp DOT
             >;
         };
     };
