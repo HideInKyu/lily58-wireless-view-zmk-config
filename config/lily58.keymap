@@ -95,11 +95,11 @@
 
         layer_1 {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                               &kp N6  &kp N7    &kp N8        &kp N9     &kp N0  &kp MINUS
-&none      &none   &none   &none     &none     &none                                                &none   &none     &kp UP_ARROW  &none      &none   &none
-&kp LGUI   &none   &cut    &copy     &paste    &none                                                &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none
-&kp LSHFT  &none   &none   &undo     &redo     &none      &none        &none                        &none   &none     &none         &none      &none   &none
-                           &kp LGUI  &kp LALT  &kp SPACE  &kp ENTER    &mt LG(BACKSPACE) BACKSPACE  &to 0   &none     &none
+&kp ESC    &kp N1                                &kp N2  &kp N3    &kp N4    &kp N5                                               &kp N6  &kp N7    &kp N8        &kp N9     &kp N0  &kp MINUS
+&none      &none                                 &none   &none     &none     &none                                                &none   &none     &kp UP_ARROW  &none      &none   &none
+&kp LGUI   &none                                 &cut    &copy     &paste    &none                                                &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none
+&kp LSHFT  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &none   &undo     &redo     &none      &none        &none                        &none   &none     &none         &none      &none   &none
+                                                         &kp LGUI  &kp LALT  &kp SPACE  &kp ENTER    &mt LG(BACKSPACE) BACKSPACE  &to 0   &none     &none
             >;
         };
 
