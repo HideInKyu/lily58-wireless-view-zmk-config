@@ -96,11 +96,11 @@
 
         layer_0 {
             bindings = <
-&mt LC(LS(GRAVE)) GRAVE  &kp N1       &kp N2       &kp N3        &kp N4            &kp N5                                                 &kp N6  &kp N7       &kp N8       &kp N9       &kp N0                  &mt EQUAL MINUS
-&kp TAB                  &kp Q        &mt LG(W) W  &mt LG(F) F   &kp P             &kp G                                                  &kp J   &mt LG(L) L  &mt LG(U) U  &mt LG(Y) Y  &mt LG(SEMI) SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
-&mt LEFT_GUI ESCAPE      &mt LG(A) A  &mt LG(R) R  &mt LG(S) S   &mt LG(T) T       &mt LG(D) D                                            &kp H   &mt LG(N) N  &kp E        &mt LG(I) I  &kp O                   &kp SQT
-&kp LSHFT                &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C   &mt LG(V) V       &mt LG(B) B  &to 3        &to 3                        &kp K   &kp M        &kp COMMA    &kp DOT      &kp FSLH                &kp RIGHT_SHIFT
-                                                   &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 SPACE  &kp ENTER    &mt LG(BACKSPACE) BACKSPACE  &mo 1   &none        &none
+&mt LC(LS(GRAVE)) GRAVE  &kp N1       &kp N2       &kp N3            &kp N4        &kp N5                                                 &kp N6  &kp N7       &kp N8       &kp N9       &kp N0                  &mt EQUAL MINUS
+&kp TAB                  &kp Q        &mt LG(W) W  &mt LG(F) F       &kp P         &kp G                                                  &kp J   &mt LG(L) L  &mt LG(U) U  &mt LG(Y) Y  &mt LG(SEMI) SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
+&mt LEFT_GUI ESCAPE      &mt LG(A) A  &mt LG(R) R  &mt LG(S) S       &mt LG(T) T   &mt LG(D) D                                            &kp H   &mt LG(N) N  &kp E        &mt LG(I) I  &kp O                   &kp SQT
+&kp LSHFT                &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C       &mt LG(V) V   &mt LG(B) B  &to 3        &to 3                        &kp K   &kp M        &kp COMMA    &kp DOT      &kp FSLH                &kp RIGHT_SHIFT
+                                                   &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 2 SPACE  &kp ENTER    &mt LG(BACKSPACE) BACKSPACE  &mo 1   &none        &none
             >;
         };
 
