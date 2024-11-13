@@ -96,11 +96,11 @@
 
         layer_0 {
             bindings = <
-&mt LC(LS(GRAVE)) GRAVE  &kp N1  &kp N2  &kp N3            &kp N4            &kp N5                                   &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB                  &kp Q   &kp W   &kp F             &kp P             &kp G                                    &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &kp BSLH
-&mt LEFT_ALT ESCAPE      &kp A   &kp R   &kp S             &kp T             &kp D                                    &kp H   &kp N   &kp E      &kp I    &kp O     &kp SQT
-&kp LSHFT                &kp Z   &kp X   &kp C             &kp V             &kp B        &to 3        &to 3          &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                         &kp LEFT_CONTROL  &kp LEFT_CONTROL  &lt 2 SPACE  &kp ENTER    &kp BACKSPACE  &mo 1   &none   &none
+&mt LC(LS(GRAVE)) GRAVE  &kp N1  &kp N2  &kp N3            &kp N4                     &kp N5                                   &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp TAB                  &kp Q   &kp W   &kp F             &kp P                      &kp G                                    &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &kp BSLH
+&mt LEFT_COMMAND ESCAPE  &kp A   &kp R   &kp S             &kp T                      &kp D                                    &kp H   &kp N   &kp E      &kp I    &kp O     &kp SQT
+&kp LSHFT                &kp Z   &kp X   &kp C             &kp V                      &kp B        &to 3        &to 3          &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                         &kp LEFT_CONTROL  &mt LEFT_COMMAND LEFT_ALT  &lt 2 SPACE  &kp ENTER    &kp BACKSPACE  &mo 1   &none   &none
             >;
         };
 
