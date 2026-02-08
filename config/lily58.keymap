@@ -45,11 +45,11 @@
 
         League {
             bindings = <
-&mt LS(LC(GRAVE)) GRAVE  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F4 NUMBER_4  &mt F5 N5                       &mt F6 NUMBER_6  &mt F7 N7  &mt F8 N8  &mt F9 N9  &mt F10 N0  &kp MINUS
-&kp TAB                  &kp Q            &kp W            &kp E            &kp R            &kp T                           &kp Y            &kp U      &kp I      &kp O      &kp P       &kp BSLH
-&kp ESC                  &kp A            &kp S            &kp D            &kp F            &kp G                           &kp H            &kp J      &kp K      &kp L      &kp SEMI    &kp SQT
-&kp LSHFT                &kp Z            &kp X            &kp C            &kp V            &kp B      &to 0      &to 0     &kp N            &kp M      &kp COMMA  &kp DOT    &kp FSLH    &kp RSHFT
-                                                           &kp RGUI         &kp N            &kp SPACE  &kp RET    &kp BSPC  &mo 2            &kp RCTRL  &none
+&mt LS(LC(GRAVE)) GRAVE  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                          &kp N6  &kp N7     &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp TAB                  &kp Q   &kp W   &kp E     &kp R   &kp T                           &kp Y   &kp U      &kp I      &kp O    &kp P     &kp BSLH
+&kp ESC                  &kp A   &kp S   &kp D     &kp F   &kp G                           &kp H   &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT                &kp Z   &kp X   &kp C     &kp V   &kp B      &to 0      &to 0     &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                         &kp RGUI  &kp N   &kp SPACE  &kp RET    &kp BSPC  &mo 2   &kp RCTRL  &none
             >;
         };
     };
